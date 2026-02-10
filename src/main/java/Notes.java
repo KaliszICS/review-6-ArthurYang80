@@ -1,7 +1,7 @@
 
 class Notes {
 	public static void main(String[] args) {
-		System.out.println(result);
+		// System.out.println(result);
 		System.out.println(add(5, 6));
 
 		System.out.println(addS("root"));
@@ -11,6 +11,7 @@ class Notes {
 	//create a function/method definition it needs to be outside of your main but inside your class
 	//return type and return must match
 	
+	//public static (makes it a function) dataType functionName(parameters)
 	public static int add(int addNum1, int addNum2) {
 		int additionResult;
 		additionResult = addNum1 + addNum2;
